@@ -5,16 +5,14 @@ import { MapPin } from 'lucide-react'
 export function Hero() {
   return (
     <section id="top" className="relative">
-      <div className="max-h-[65vh] overflow-hidden">
-        <Image
-          src="/images/hero.png"
-          alt="Harbour Realty, a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
-          className="h-auto w-full object-cover"
-          width={1728}
-          height={912}
-          priority
-        />
-      </div>
+      <Image
+        src="/images/hero.png"
+        alt="Harbour Realty, a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
+        className="h-auto w-full"
+        width={1728}
+        height={912}
+        priority
+      />
 
       {/* Blue banner below hero */}
       <div className="border-b border-border/60 bg-primary text-primary-foreground">
