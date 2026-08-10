@@ -4,20 +4,22 @@ import { MapPin } from 'lucide-react'
 
 export function Hero() {
   return (
-    <section id="top" className="relative flex h-[calc(100vh-57px)] flex-col">
-      <div className="relative flex-1 overflow-hidden">
-        <Image
-          src="/images/hero.png"
-          alt="Harbour Realty, a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
-          className="h-full w-full object-cover object-top"
-          width={1728}
-          height={912}
-          priority
-        />
+    <section id="top">
+      <div className="mx-auto max-w-7xl px-4 pt-6 md:px-6">
+        <div className="overflow-hidden rounded-xl shadow-lg">
+          <Image
+            src="/images/hero.png"
+            alt="Harbour Realty, a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
+            className="h-auto w-full"
+            width={1728}
+            height={912}
+            priority
+          />
+        </div>
       </div>
 
-      {/* Blue banner pinned at bottom of viewport */}
-      <div className="bg-primary text-primary-foreground">
+      {/* Blue banner below hero */}
+      <div className="mt-6 bg-primary text-primary-foreground">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-5 md:flex-row md:items-center md:justify-between md:px-6">
           <div className="max-w-xl">
             <p className="flex items-center gap-2 text-sm font-medium tracking-wide text-accent">
