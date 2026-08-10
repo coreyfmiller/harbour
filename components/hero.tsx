@@ -4,8 +4,8 @@ import { MapPin } from 'lucide-react'
 
 export function Hero() {
   return (
-    <section id="top" className="relative">
-      <div className="h-[50vh] min-h-[280px] overflow-hidden md:h-[55vh]">
+    <section id="top" className="relative flex h-[calc(100vh-57px)] flex-col">
+      <div className="relative flex-1 overflow-hidden">
         <Image
           src="/images/hero.png"
           alt="Harbour Realty, a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
@@ -16,15 +16,15 @@ export function Hero() {
         />
       </div>
 
-      {/* Blue banner below hero */}
-      <div className="border-b border-border/60 bg-primary text-primary-foreground">
-        <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-6 md:flex-row md:items-center md:justify-between md:px-6 md:py-8">
+      {/* Blue banner pinned at bottom of viewport */}
+      <div className="bg-primary text-primary-foreground">
+        <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-5 md:flex-row md:items-center md:justify-between md:px-6">
           <div className="max-w-xl">
             <p className="flex items-center gap-2 text-sm font-medium tracking-wide text-accent">
               <MapPin className="h-4 w-4" />
               Saint Andrews by-the-Sea, New Brunswick
             </p>
-            <h1 className="mt-2 text-balance font-serif text-2xl font-semibold leading-tight md:text-3xl">
+            <h1 className="mt-1 text-balance font-serif text-xl font-semibold leading-tight md:text-2xl">
               Coastal homes, sold with local expertise.
             </h1>
           </div>
