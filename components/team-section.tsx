@@ -31,7 +31,7 @@ export function TeamSection() {
       <SectionHeading
         eyebrow="Our Team"
         title="Agents who know these shores"
-        description="Meet the people behind Harbour Realty — dedicated professionals who call Saint Andrews home."
+        description="Meet the people behind Harbour Realty , dedicated professionals who call Saint Andrews home."
       />
 
       <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

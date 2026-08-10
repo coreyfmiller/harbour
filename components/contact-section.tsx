@@ -31,7 +31,7 @@ export function ContactSection() {
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
             Thinking of buying or selling in Saint Andrews? Reach out for a no-obligation
-            conversation about your goals — we&apos;d love to help.
+            conversation about your goals , we&apos;d love to help.
           </p>
 
           <ul className="mt-8 space-y-4">

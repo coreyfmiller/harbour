@@ -15,7 +15,7 @@ const points = [
   {
     icon: Users,
     title: 'A boutique approach',
-    text: 'You work directly with a dedicated agent — no call centres, no handoffs. Just attentive, personal service.',
+    text: 'You work directly with a dedicated agent , no call centres, no handoffs. Just attentive, personal service.',
   },
   {
     icon: Award,

@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Button } from '@/components/ui/button'
 import { MapPin } from 'lucide-react'
 
@@ -5,10 +6,13 @@ export function Hero() {
   return (
     <section id="top" className="relative">
       <div className="relative w-full">
-        <img
+        <Image
           src="/images/hero.png"
-          alt="Harbour Realty — a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
+          alt="Harbour Realty , a coastal shingle-style home overlooking the harbour in Saint Andrews, New Brunswick at sunset"
           className="h-auto w-full object-cover"
+          width={1728}
+          height={912}
+          priority
         />
       </div>
 
