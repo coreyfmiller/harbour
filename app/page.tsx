@@ -7,6 +7,7 @@ import { TeamSection } from '@/components/team-section'
 import { Testimonials } from '@/components/testimonials'
 import { ContactSection } from '@/components/contact-section'
 import { SiteFooter } from '@/components/site-footer'
+import { ChatWidget } from './components/chat-widget'
 
 export default function Page() {
   return (
@@ -21,6 +22,7 @@ export default function Page() {
         <Testimonials />
         <ContactSection />
       </main>
+      <ChatWidget />
       <SiteFooter />
     </>
   )
